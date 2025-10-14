@@ -1,0 +1,112 @@
+{
+  "value": "R$ 1.000.000",
+  "topic": "Síntese Harmônica e Acordes Complexos",
+  "difficulty": "Expert (Síntese)",
+  "questions": [
+    {
+      "question": "Qual dos seguintes acordes possui a sonoridade mais tensa e instável, servindo primariamente como acorde de passagem? ",
+      "options": [
+        "Tríade Maior (Ex: C)",
+        "Tétrade Maior com Sétima Maior (Ex: Cmaj7)",
+        "Acorde Dominante (Ex: G7)",
+        "Acorde Diminuto (Ex: C#º)"
+      ],
+      "answer": "Acorde Diminuto (Ex: C#º)",
+      "source": "O acorde diminuto tem uma função fortemente instável. Ele cria tensão e quase sempre pede resolução para um acorde maior ou menor que esteja próximo."
+    },
+    {
+      "question": "O que a Tétrade Maior com Sétima Maior (Cmaj7) e a Tétrade Menor com Sétima Menor (Cm7) têm em comum em sua estrutura? ",
+      "options": [
+        "Ambas têm Terça Menor.",
+        "Ambas têm Quinta Diminuta.",
+        "Ambas têm a Sétima Maior.",
+        "Ambas têm a Quinta Justa."
+      ],
+      "answer": "Ambas têm a Quinta Justa.",
+      "source": "Tétrade Maior com Sétima Maior (Maj7 ou 7M ou 7+) ○ Estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Maior. Tétrade Menor com Sétima Menor (m7) ○ Estrutura: Fundamental + Terça Menor + Quinta Justa + Sétima Menor."
+    },
+    {
+      "question": "Em termos de intervalos a partir da Tônica, qual é a principal diferença que distingue um acorde de Lá Maior (A) de um acorde de Lá menor (Am)? ",
+      "options": [
+        "A Tônica (I).",
+        "A Quinta (V).",
+        "A Sétima (VII).",
+        "A Terça (III/♭III)."
+      ],
+      "answer": "A Terça (III/♭III).",
+      "source": "Terça maior (III) → é a 3ª que o define se o acorde é maior ou menor. Terça menor (III) → é a 3ª que o define se o acorde é maior ou menor."
+    },
+    {
+      "question": "Se o acorde de Lá Maior é formado por Lá - Dó# - Mi, e o Lá menor é Lá - Dó - Mi, qual é o intervalo de Lá a Dó#? ",
+      "options": [
+        "Terça Menor (1,5T)",
+        "Quarta Justa (2,5T)",
+        "Terça Maior (2T)",
+        "Quinta Justa (3,5T)"
+      ],
+      "answer": "Terça Maior (2T)",
+      "source": "Conte 2 tons acima → terá a terça maior."
+    },
+    {
+      "question": "Por que, na formação da Escala Maior, os semitons naturais (Mi-Fá e Si-Dó) caem precisamente entre os graus III-IV e VII-VIII? ",
+      "options": [
+        "É um acaso da natureza.",
+        "Porque a regra 'T-T-St-T-T-T-St' exige que o III-IV e VII-VIII sejam os semitons.",
+        "Para usar o menor número de acidentes na escala.",
+        "Para criar tensão máxima."
+      ],
+      "answer": "Porque a regra 'T-T-St-T-T-T-St' exige que o III-IV e VII-VIII sejam os semitons.",
+      "source": "A escala maior segue um padrão fixo de tons (T) e semitons (St): ... III → IV ½ TOM OU SEMITOM ... VII → VIII ½ TOM OU SEMITOM."
+    },
+    {
+      "question": "Qual é a estrutura de Fundamental, Terça, Quinta e Sétima para um acorde Dó Dominante (C7)? ",
+      "options": [
+        "Dó (F) + Mi (T. Maior) + Sol (Q. Justa) + Si (S. Maior)",
+        "Dó (F) + Mi (T. Maior) + Sol (Q. Justa) + Si♭ (S. Menor)",
+        "Dó (F) + Mi♭ (T. Menor) + Sol (Q. Justa) + Si♭ (S. Menor)",
+        "Dó (F) + Mi (T. Maior) + Sol# (Q. Aum) + Si♭ (S. Menor)"
+      ],
+      "answer": "Dó (F) + Mi (T. Maior) + Sol (Q. Justa) + Si♭ (S. Menor)",
+      "source": "Tétrade Dominante (7) ○ Estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Menor."
+    },
+    {
+      "question": "A Tríade Aumentada (C+) é composta por Fundamental + Terça Maior + Quinta Aumentada. A Quinta Aumentada é um intervalo que possui quantos tons? ",
+      "options": ["3 Tons", "3,5 Tons", "4 Tons", "4,5 Tons"],
+      "answer": "4 Tons",
+      "source": "Tríade Aumentada (não nos preocuparemos com eles nesse módulo de fundamentos) ○ Estrutura: Fundamental + Terça Maior + Quinta Aumentada ○ Exemplo: C+ (Dó aumentado) → C – E – G#. Dó → Mi = 2 tons (terça maior)."
+    },
+    {
+      "question": "Em uma progressão harmônica, a passagem do acorde de Tônica (I) para o acorde de Subdominante (IV) é percebida como um movimento de quê? ",
+      "options": [
+        "Repouso completo.",
+        "Tensão máxima.",
+        "Saída da 'casa' ou abertura da jornada.",
+        "Conclusão definitiva."
+      ],
+      "answer": "Saída da 'casa' ou abertura da jornada.",
+      "source": "F (IV) = “saindo de casa”. Subdominante IV – ii A - F#m Abertura, transição Leve Transição entre repouso e tensão."
+    },
+    {
+      "question": "O que acontece ao subir uma oitava no teclado, do Dó mais grave para o Dó mais agudo? ",
+      "options": [
+        "Apenas a duração da nota é alterada.",
+        "Apenas o volume da nota é alterado.",
+        "A frequência da nota dobra, mantendo a mesma qualidade sonora.",
+        "O timbre da nota se altera drasticamente."
+      ],
+      "answer": "A frequência da nota dobra, mantendo a mesma qualidade sonora.",
+      "source": "O que distingue uma nota de outra é a sua frequência, ou seja, o número de oscilações que uma onda sonora realiza dentro de um determinado intervalo de tempo. Essas notas se repetem em diferentes alturas chamadas oitavas."
+    },
+    {
+      "question": "Qual dos seguintes acordes possui uma Sétima Maior e uma Quinta Justa em sua estrutura, sendo o acorde com sonoridade mais 'aberta' e estável? ",
+      "options": [
+        "Acorde Diminuto",
+        "Acorde Dominante (7)",
+        "Acorde Menor com Sétima (m7)",
+        "Acorde Maior com Sétima Maior (Maj7)"
+      ],
+      "answer": "Acorde Maior com Sétima Maior (Maj7)",
+      "source": "Tétrade Maior com Sétima Maior (Maj7 ou 7M ou 7+) ... Som: calmo, sofisticado e “aberto” — muito usado para encerrar músicas ou criar atmosfera suave."
+    }
+  ]
+}

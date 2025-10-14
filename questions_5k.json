@@ -1,0 +1,71 @@
+{
+  "value": "R$ 5.000",
+  "topic": "Intervalos e Semitons Naturais",
+  "difficulty": "Médio/Fácil",
+  "questions": [
+    {
+      "question": "O que é um 'Intervalo' na música? ",
+      "options": [
+        "A menor distância entre duas notas.",
+        "O resultado da combinação simultânea de sons.",
+        "A sucessão organizada de sons.",
+        "A distância sonora entre duas notas musicais."
+      ],
+      "answer": "A distância sonora entre duas notas musicais.",
+      "source": "As notas musicais possuem distâncias sonoras entre elas. A estas distâncias, damos o nome de Intervalo."
+    },
+    {
+      "question": "Qual é a menor distância entre duas notas musicais? ",
+      "options": ["Tom inteiro", "Oitava", "Semitom (ou meio tom)", "Terça"],
+      "answer": "Semitom (ou meio tom)",
+      "source": "Semitom (ou meio tom) É a menor distância entre duas notas musicais."
+    },
+    {
+      "question": "Quantos semitons formam um Tom inteiro? ",
+      "options": [
+        "Um semitom.",
+        "Dois semitons.",
+        "Três semitons.",
+        "Meio semitom."
+      ],
+      "answer": "Dois semitons.",
+      "source": "Tom Corresponde ao dobro de um semitom."
+    },
+    {
+      "question": "Qual par de notas naturais está separado por uma distância de SEMITOM (ou meio tom) direto, sem tecla preta entre elas no teclado? ",
+      "options": ["Dó e Ré", "Ré e Mi", "Fá e Sol", "Mi e Fá"],
+      "answer": "Mi e Fá",
+      "source": "Entre Mi Fá e Si Dó, não há tecla preta, ou seja, não existe uma nota intermediária visível esses pares são meios tons naturais."
+    },
+    {
+      "question": "No braço do violão ou baixo, quantas casas (trastes) se deve avançar para percorrer um SEMITOM? ",
+      "options": ["Duas casas.", "Meia casa.", "Uma casa.", "Três casas."],
+      "answer": "Uma casa.",
+      "source": "No violão ou baixo, é quando você move um traste para frente ou para trás."
+    },
+    {
+      "question": "No braço do violão ou baixo, quantas casas (trastes) se deve avançar para percorrer um TOM inteiro? ",
+      "options": ["Uma casa.", "Duas casas.", "Três casas.", "Quatro casas."],
+      "answer": "Duas casas.",
+      "source": "Dois trastes equivalem a um tom."
+    },
+    {
+      "question": "O par de notas Dó e Ré possui qual distância sonora entre si? ",
+      "options": ["Meio Tom", "Um Tom inteiro", "Uma Oitava", "Três tons"],
+      "answer": "Um Tom inteiro",
+      "source": "De Dó para Ré temos um tom inteiro."
+    },
+    {
+      "question": "Se você tocar uma tecla branca no teclado e a tecla imediatamente seguinte (preta ou branca), qual intervalo estará sendo tocado? ",
+      "options": ["Um Tom", "Uma Terça", "Um Semitom", "Uma Oitava"],
+      "answer": "Um Semitom",
+      "source": "No teclado, isso acontece quando você anda de uma tecla para a imediatamente seguinte (preta ou branca, sem pular nenhuma)."
+    },
+    {
+      "question": "Qual par de notas naturais é o segundo exemplo de semitom natural na escala? ",
+      "options": ["Dó e Ré", "Mi e Fá", "Lá e Si", "Si e Dó"],
+      "answer": "Si e Dó",
+      "source": "Entre Mi Fá e Si Dó, não há tecla preta."
+    }
+  ]
+}

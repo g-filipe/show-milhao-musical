@@ -1,0 +1,77 @@
+{
+  "value": "R$ 10.000",
+  "topic": "Sistema de Cifras - Básico",
+  "difficulty": "Médio",
+  "questions": [
+    {
+      "question": "Qual letra do sistema de cifras representa a nota Lá? ",
+      "options": ["G", "A", "C", "D"],
+      "answer": "A",
+      "source": "A=Lá."
+    },
+    {
+      "question": "A cifra 'C' representa qual nota musical? ",
+      "options": ["Mi", "Dó", "Sol", "Fá"],
+      "answer": "Dó",
+      "source": "C=Dó."
+    },
+    {
+      "question": "Qual cifra representa a nota Mi? ",
+      "options": ["M", "E", "D", "B"],
+      "answer": "E",
+      "source": "E=Mi."
+    },
+    {
+      "question": "Para indicar a nota Fá, qual letra do alfabeto é utilizada no sistema de cifras? ",
+      "options": ["F", "Fa", "E", "G"],
+      "answer": "F",
+      "source": "F=Fá."
+    },
+    {
+      "question": "A cifra 'B' representa qual nota musical? ",
+      "options": ["Lá", "Si", "Ré", "Sol"],
+      "answer": "Si",
+      "source": "B=Si."
+    },
+    {
+      "question": "Qual cifra representa a nota Sol? ",
+      "options": ["S", "G", "F", "D"],
+      "answer": "G",
+      "source": "G = Sol."
+    },
+    {
+      "question": "Para indicar um acorde maior na cifra, qual complemento é necessário? ",
+      "options": [
+        "A letra 'M' maiúscula.",
+        "A letra 'm' minúscula.",
+        "O número '7'.",
+        "Nenhum complemento é necessário (a letra sozinha já indica maior)."
+      ],
+      "answer": "Nenhum complemento é necessário (a letra sozinha já indica maior).",
+      "source": "Vale destacar que os acordes maiores são escritos apenas com a letra da cifra, sem a necessidade de outros complementos."
+    },
+    {
+      "question": "O que indica o símbolo '#' imediatamente à direita da cifra (Ex: D#)? ",
+      "options": [
+        "Acorde menor.",
+        "Acorde diminuto.",
+        "Acorde sustenido.",
+        "Acorde bemol."
+      ],
+      "answer": "Acorde sustenido.",
+      "source": "Quando o acorde que desejamos escrever é sustenido ou bemol, acrescentamos o símbolo correspondente imediatamente à direita da cifra. D# Ré Sustenido."
+    },
+    {
+      "question": "A cifra 'Db' representa qual acorde? ",
+      "options": ["Dó bemol", "Ré sustenido", "Ré bemol", "Lá bemol"],
+      "answer": "Ré bemol",
+      "source": "Db = Ré Bemol."
+    },
+    {
+      "question": "Qual cifra representa a nota Ré? ",
+      "options": ["R", "D", "E", "G"],
+      "answer": "D",
+      "source": "D=Ré."
+    }
+  ]
+}

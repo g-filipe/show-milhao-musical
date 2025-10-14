@@ -1,0 +1,86 @@
+{
+  "value": "R$ 4.000",
+  "topic": "Ciclo e Notas Acidentais",
+  "difficulty": "Intermediário",
+  "questions": [
+    {
+      "question": "Um conceito essencial na música é que ela é 'cíclica'. O que isso significa? ",
+      "options": [
+        "Que a música sempre retorna à tônica.",
+        "Que as sete notas naturais se repetem infinitamente em oitavas.",
+        "Que todos os acordes são formados por ciclos de terças.",
+        "Que os semitons e tons se alternam em um ciclo fixo."
+      ],
+      "answer": "Que as sete notas naturais se repetem infinitamente em oitavas.",
+      "source": "Um conceito essencial no estudo da música é que ela é cíclica. Isso significa que, embora existam apenas sete notas naturais (Dó, Ré, Mi, Fá, Sol, Lá, Si), elas se repetem infinitamente."
+    },
+    {
+      "question": "O que são as 'oitavas' na música? ",
+      "options": [
+        "O nome para o intervalo de dois tons.",
+        "A forma de nomear o ritmo.",
+        "A repetição das mesmas notas, mas em alturas diferentes.",
+        "Um tipo de acorde com quatro notas."
+      ],
+      "answer": "A repetição das mesmas notas, mas em alturas diferentes.",
+      "source": "Essas notas se repetem em diferentes alturas chamadas oitavas."
+    },
+    {
+      "question": "Qual sinal musical deixa a nota meio tom mais aguda (mais alta)? ",
+      "options": ["Bemol (♭)", "Sustenido (#)", "Oitava (8va)", "Clave (𝄞)"],
+      "answer": "Sustenido (#)",
+      "source": "Sustenido ( ): deixa a nota meio tom mais aguda (mais alta)."
+    },
+    {
+      "question": "O que o Bemol (♭) faz com uma nota natural? ",
+      "options": [
+        "Deixa a nota um tom mais grave.",
+        "Deixa a nota meio tom mais grave.",
+        "Deixa a nota um tom mais aguda.",
+        "Deixa a nota mais intensa."
+      ],
+      "answer": "Deixa a nota meio tom mais grave.",
+      "source": "Bemol (b): deixa a nota meio tom mais grave (mais baixa)."
+    },
+    {
+      "question": "Notas acidentais são aquelas que sofrem alterações com o uso de sinais chamados de: ",
+      "options": ["Tríades", "Compassos", "Acidentes musicais", "Cifras"],
+      "answer": "Acidentes musicais",
+      "source": "Já as notas acidentais são aquelas que sofrem alterações com o uso de sinais chamados acidentes musicais."
+    },
+    {
+      "question": "Qual nota é meio tom acima de Dó? ",
+      "options": ["Ré", "Mi", "Dó sustenido (Dó#) ou Ré bemol (Ré♭)", "Fá"],
+      "answer": "Dó sustenido (Dó#) ou Ré bemol (Ré♭)",
+      "source": "Sustenido ( ): deixa a nota meio tom mais aguda (mais alta). Exemplo: Dó# é meio tom acima do Dó. Dó / Ré b."
+    },
+    {
+      "question": "Qual nota é meio tom abaixo de Si? ",
+      "options": [
+        "Lá",
+        "Dó",
+        "Lá sustenido (Lá#) ou Si bemol (Si♭)",
+        "Si bemol (Si♭)"
+      ],
+      "answer": "Lá sustenido (Lá#) ou Si bemol (Si♭)",
+      "source": "Bemol (b): deixa a nota meio tom mais grave (mais baixa). Lá# / Si b."
+    },
+    {
+      "question": "Qual é o nome da nota que soa meio tom acima do Ré? ",
+      "options": ["Mi", "Ré♭", "Ré# ou Mi♭", "Mi#"],
+      "answer": "Ré# ou Mi♭",
+      "source": "Sustenido ( ): deixa a nota meio tom mais aguda (mais alta). Ré / Mi b."
+    },
+    {
+      "question": "O que as notas Dó#, Ré#, Fá#, Sol# e Lá# representam no teclado? ",
+      "options": [
+        "As teclas brancas.",
+        "As teclas pretas.",
+        "As notas mais graves.",
+        "As notas em oitavas diferentes."
+      ],
+      "answer": "As teclas pretas.",
+      "source": "As teclas pretas entre as brancas representam os acidentes (sustenidos ou bemóis)."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "value": "R$ 1.000",
+  "topic": "Fundamentos e Elementos Básicos",
+  "difficulty": "Muito Fácil",
+  "questions": [
+    {
+      "question": "Qual dos elementos básicos da música é a 'sucessão organizada de sons com alturas e durações diferentes', que o ouvinte costuma reconhecer ou cantar? ",
+      "options": ["Harmonia", "Ritmo", "Melodia", "Intensidade"],
+      "answer": "Melodia",
+      "source": "A melodia é a sucessão organizada de sons com alturas e durações diferentes."
+    },
+    {
+      "question": "A música é a arte de combinar sons e silêncios com qual objetivo principal? ",
+      "options": [
+        "Apenas entreter o público.",
+        "Transmitir sentimentos, emoções e ideias.",
+        "Apenas estabelecer um padrão de pulsação.",
+        "Determinar a duração das notas."
+      ],
+      "answer": "Transmitir sentimentos, emoções e ideias.",
+      "source": "Música é a arte de combinar sons e silêncios de forma harmoniosa e expressiva, com o objetivo de transmitir sentimentos, emoções e ideias."
+    },
+    {
+      "question": "Qual elemento da música é o resultado da 'combinação simultânea de sons', formando acordes e progressões? ",
+      "options": ["Melodia", "Timbre", "Ritmo", "Harmonia"],
+      "answer": "Harmonia",
+      "source": "É o resultado da combinação simultânea de sons, ou seja, da execução de notas tocadas ao mesmo tempo. A harmonia segue regras que regem a relação entre os sons simultâneos, formando acordes e progressões que sustentam e enriquecem a melodia."
+    },
+    {
+      "question": "O Ritmo é a organização dos sons em qual dimensão? ",
+      "options": ["Altura", "Timbre", "Tempo", "Intensidade"],
+      "answer": "Tempo",
+      "source": "É a organização dos sons no tempo, determinada pela duração das notas e pausas."
+    },
+    {
+      "question": "Quantos elementos básicos compõem a música, segundo a apostila? ",
+      "options": [
+        "Dois (Som e Silêncio)",
+        "Três (Melodia, Ritmo e Harmonia)",
+        "Quatro (Altura, Intensidade, Duração, Timbre)",
+        "Sete (As notas naturais)"
+      ],
+      "answer": "Três (Melodia, Ritmo e Harmonia)",
+      "source": "A música é composta de 3 elementos básicos: Melodia, Ritmo e Harmonia."
+    },
+    {
+      "question": "O que também faz parte da música e é super importante para dar 'respiro à melodia'? ",
+      "options": [
+        "O Volume",
+        "As Pausas (Silêncios)",
+        "As Oitavas",
+        "Os Sustenidos"
+      ],
+      "answer": "As Pausas (Silêncios)",
+      "source": "Ela não é feita só de sons as pausas também fazem parte e são super importantes para dar ritmo e respiro à melodia."
+    },
+    {
+      "question": "O que são os compassos na música? ",
+      "options": [
+        "Os símbolos dos acidentes musicais.",
+        "As notas mais agudas da melodia.",
+        "Unidades que agrupam padrões de pulsação, estruturando a música.",
+        "Os tipos de acorde (maior ou menor)."
+      ],
+      "answer": "Unidades que agrupam padrões de pulsação, estruturando a música.",
+      "source": "Esses padrões são agrupados em unidades chamadas compassos, que estruturam a música de forma regular."
+    },
+    {
+      "question": "Quando se diz que os sons combinam bem entre si, refere-se ao conceito de: ",
+      "options": ["Ciclagem", "Enarmonia", "Duração", "Harmonia"],
+      "answer": "Harmonia",
+      "source": "Quando falamos em 'harmoniosa e expressiva', queremos dizer que os sons combinam bem entre si e conseguem passar sentimento."
+    },
+    {
+      "question": "Qual elemento é geralmente a parte da música que mais se destaca e que o ouvinte costuma reconhecer ou cantarolar? ",
+      "options": ["Harmonia", "Ritmo", "Melodia", "Timbre"],
+      "answer": "Melodia",
+      "source": "A melodia é geralmente a parte da música que mais se destaca e que o ouvinte costuma reconhecer ou cantar."
+    },
+    {
+      "question": "A Alternância entre sons longos e curtos, fortes e fracos, criando um padrão de pulsação, é característica de qual elemento básico? ",
+      "options": ["Melodia", "Ritmo", "Harmonia", "Altura"],
+      "answer": "Ritmo",
+      "source": "O ritmo envolve a alternância entre sons longos e curtos, fortes e fracos, criando um padrão de pulsação."
+    }
+  ]
+}

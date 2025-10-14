@@ -1,0 +1,65 @@
+{
+  "value": "R$ 3.000",
+  "topic": "Notas Naturais e Direção",
+  "difficulty": "Intermediário/Fácil",
+  "questions": [
+    {
+      "question": "Quais são as sete notas naturais do sistema musical ocidental? ",
+      "options": [
+        "Lá, Si, Dó, Ré, Mi, Fá, Sol",
+        "Dó, Ré, Mi, Fá, Sol, Lá, Si",
+        "A, B, C, D, E, F, G",
+        "Dó, Ré, Mi, Fá, Sol, Lá, Si, Dó"
+      ],
+      "answer": "Dó, Ré, Mi, Fá, Sol, Lá, Si",
+      "source": "No sistema musical mais usado no Ocidente, temos sete notas naturais: Dó - Ré - Mi - Fá - Sol - Lá - Si."
+    },
+    {
+      "question": "Quando as notas são dispostas da região grave para a região aguda, chamamos essa disposição de: ",
+      "options": ["Descendente", "Cíclica", "Enarmônica", "Ascendente"],
+      "answer": "Ascendente",
+      "source": "As notas podem ser dispostas de maneira ascendente (iniciam na região grave e partem para a região aguda)."
+    },
+    {
+      "question": "O que caracteriza uma nota como 'grave' em relação à sua frequência? ",
+      "options": [
+        "Um número maior de vibrações por segundo (alta frequência).",
+        "Um número menor de vibrações por segundo (baixa frequência).",
+        "Uma vibração neutra.",
+        "Apenas o seu timbre."
+      ],
+      "answer": "Um número menor de vibrações por segundo (baixa frequência).",
+      "source": "Notas graves apresentam um número menor de vibrações por segundo (baixa frequência)."
+    },
+    {
+      "question": "A sequência de notas que vai da região aguda para a região grave é classificada como: ",
+      "options": ["Ascendente", "Oitava", "Cíclica", "Descendente"],
+      "answer": "Descendente",
+      "source": "ou descendente (iniciam na região aguda e partem para a região grave)."
+    },
+    {
+      "question": "No braço de um violão, avançar em direção ao corpo do instrumento resulta em notas mais: ",
+      "options": ["Graves", "Cíclicas", "Agudas", "Descendentes"],
+      "answer": "Agudas",
+      "source": "No violão/baixo, esse ciclo é representado no braço: ao subir casas em direção ao corpo do instrumento, as notas vão se repetindo em oitavas cada vez mais agudas."
+    },
+    {
+      "question": "Se uma nota possui alta frequência, ela será classificada como: ",
+      "options": ["Grave", "Fraca", "Aguda", "Curta"],
+      "answer": "Aguda",
+      "source": "Alta frequência (Agudo)."
+    },
+    {
+      "question": "O som que é comparado ao 'canto de um pássaro' é um exemplo de som: ",
+      "options": ["Grave", "Forte", "Curto", "Agudo"],
+      "answer": "Agudo",
+      "source": "Sons agudos têm frequências mais altas (como o canto de um pássaro)."
+    },
+    {
+      "question": "Ao tocar as notas em direção à pestana do violão ou baixo, as notas encontradas são em oitavas mais: ",
+      "options": ["Agudas", "Graves", "Neutras", "Dominantes"],
+      "answer": "Graves",
+      "source": "Já ao descer em direção à pestana, encontramos as mesmas notas, mas em oitavas mais graves."
+    }
+  ]
+}

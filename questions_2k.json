@@ -1,0 +1,77 @@
+{
+  "value": "R$ 2.000",
+  "topic": "Propriedades do Som",
+  "difficulty": "Fácil",
+  "questions": [
+    {
+      "question": "Qual propriedade do som se refere à frequência, ou seja, se o som é grave, médio ou agudo? ",
+      "options": ["Intensidade", "Duração", "Timbre", "Altura"],
+      "answer": "Altura",
+      "source": "Refere-se à frequência do som, ou seja, se ele é grave, médio ou agudo."
+    },
+    {
+      "question": "Sons agudos têm frequências mais altas, enquanto sons graves têm frequências mais baixas. Esta diferença é percebida através de qual propriedade do som? ",
+      "options": ["Timbre", "Intensidade", "Altura", "Duração"],
+      "answer": "Altura",
+      "source": "Sons agudos têm frequências mais altas (como o canto de um pássaro), enquanto os graves têm frequências mais baixas (como o som de um tambor grande)."
+    },
+    {
+      "question": "A propriedade do som que corresponde ao volume (forte ou fraco) é a: ",
+      "options": ["Duração", "Altura", "Intensidade", "Timbre"],
+      "answer": "Intensidade",
+      "source": "É o volume do som, podendo ser forte ou fraco, alto ou baixo."
+    },
+    {
+      "question": "Qual propriedade do som nos permite distinguir um violino de uma flauta, mesmo que ambos toquem a mesma nota? ",
+      "options": ["Altura", "Intensidade", "Timbre", "Duração"],
+      "answer": "Timbre",
+      "source": "É a identidade sonora de um instrumento ou VOZ o que permite distinguir, por exemplo, um violino de uma flauta mesmo que ambos toquem a mesma nota."
+    },
+    {
+      "question": "Qual propriedade do som diz respeito ao tempo de permanência, podendo ser curta ou longa, e influencia o ritmo? ",
+      "options": ["Altura", "Timbre", "Duração", "Intensidade"],
+      "answer": "Duração",
+      "source": "Diz respeito ao tempo de permanência de um som. Pode ser curta ou longa, rápida ou lenta."
+    },
+    {
+      "question": "O volume (forte ou fraco) do som contribui para a expressividade da música. Qual é o termo musical que se refere às variações de intensidade ao longo da execução? ",
+      "options": ["Enarmonia", "Dinâmica", "Oitava", "Ciclagem"],
+      "answer": "Dinâmica",
+      "source": "A intensidade contribui para a expressividade da música e pode variar ao longo da execução (dinâmica)."
+    },
+    {
+      "question": "Um som grave, com alto volume (forte), é caracterizado por qual combinação de propriedades? ",
+      "options": [
+        "Alta frequência e alto volume",
+        "Alta frequência e baixo volume",
+        "Baixa frequência e alto volume",
+        "Baixa frequência e baixo volume"
+      ],
+      "answer": "Baixa frequência e alto volume",
+      "source": "Baixa frequência e alto volume (som grave forte)."
+    },
+    {
+      "question": "A frequência de um som está diretamente ligada a qual propriedade fundamental? ",
+      "options": ["Duração", "Intensidade", "Timbre", "Altura"],
+      "answer": "Altura",
+      "source": "Refere-se à frequência do som."
+    },
+    {
+      "question": "Qual das opções NÃO é uma propriedade fundamental do som? ",
+      "options": ["Altura", "Intensidade", "Harmonia", "Timbre"],
+      "answer": "Harmonia",
+      "source": "A música é formada por sons, e todo som possui quatro propriedades fundamentais que nos ajudam a percebê-lo e diferenciá-lo."
+    },
+    {
+      "question": "O que distingue uma nota musical de outra, do ponto de vista físico? ",
+      "options": [
+        "O seu Timbre.",
+        "A sua Intensidade.",
+        "A sua frequência (número de oscilações).",
+        "O seu volume."
+      ],
+      "answer": "A sua frequência (número de oscilações).",
+      "source": "O que distingue uma nota de outra é a sua frequência, ou seja, o número de oscilações que uma onda sonora realiza dentro de um determinado intervalo de tempo."
+    }
+  ]
+}

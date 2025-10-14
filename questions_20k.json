@@ -1,0 +1,86 @@
+{
+  "value": "R$ 20.000",
+  "topic": "Enarmonia e Nomenclatura",
+  "difficulty": "Médio",
+  "questions": [
+    {
+      "question": "Qual o termo técnico para o fenômeno em que duas notas soam iguais, mas são escritas de forma diferente, conforme o contexto musical (Ex: Dó# e Ré♭)? ",
+      "options": ["Oitava", "Tétrada", "Enarmonia", "Acidente Musical"],
+      "answer": "Enarmonia",
+      "source": "Isso se chama enarmonia quando duas notas soam iquais mas são escritas de forma diferente, conforme o contexto musical."
+    },
+    {
+      "question": "Na teoria, o Mi# soa igual a qual nota natural? ",
+      "options": ["Fá", "Sol", "Ré", "Dó"],
+      "answer": "Fá",
+      "source": "Mesmo que Mi# soe como Fá e Si# soe como Dó, os nomes são diferentes. Mi♯ e Si♯ existem na teoria musical. Soam igual a Fá (Mi#) e Dó (Si#), mas têm função diferente."
+    },
+    {
+      "question": "Por que o Mi sustenido (Mi#) é usado na Escala de Fá# maior em vez de Fá? ",
+      "options": [
+        "Para manter a ordem das notas na escala.",
+        "Porque o Mi# é mais agudo que o Fá.",
+        "Porque o Fá já foi usado como tônica.",
+        "Para evitar o uso de acidentes."
+      ],
+      "answer": "Para manter a ordem das notas na escala.",
+      "source": "Na música, usamos as notas para formar escalas corretas e manter a lógica alfabética das notas. Aqui, Mi# é necessário para manter a ordem (não podemos usar Fá porque já usamos Fá# no começo)."
+    },
+    {
+      "question": "O Si sustenido (Si#) soa igual a qual nota natural, conforme o conceito de enarmonia? ",
+      "options": ["Lá", "Dó", "Mi", "Fá"],
+      "answer": "Dó",
+      "source": "Mesmo que Mi# soe como Fá e Si# soe como Dó, os nomes são diferentes. Soam igual a Fá (Mi#) e Dó (Si#), mas têm função diferente."
+    },
+    {
+      "question": "Na prática do violão/baixo, o Mi# será tocado na mesma casa (traste) que qual nota? ",
+      "options": ["Ré", "Sol", "Fá", "Lá"],
+      "answer": "Fá",
+      "source": "Mi# será a mesma casa que Fá, e Si# será a mesma casa que Dó."
+    },
+    {
+      "question": "O Ré sustenido (Ré#) é enarmônico a qual nota? ",
+      "options": [
+        "Mi bemol (Mi♭)",
+        "Dó sustenido (Dó#)",
+        "Mi sustenido (Mi#)",
+        "Fá bemol (Fá♭)"
+      ],
+      "answer": "Mi bemol (Mi♭)",
+      "source": "Ré / Mi b."
+    },
+    {
+      "question": "O termo 'enarmonia' ajuda os músicos a entenderem a função das notas em qual contexto? ",
+      "options": [
+        "Ritmo e Duração",
+        "Intensidade e Timbre",
+        "Estrutura da Escala e Harmonia",
+        "Apenas a leitura de tablaturas"
+      ],
+      "answer": "Estrutura da Escala e Harmonia",
+      "source": "Na música, usamos as notas para formar escalas corretas e manter a lógica alfabética das notas. Facilita o entendimento de escalas, modos e harmonias mais complexas."
+    },
+    {
+      "question": "Qual a principal razão para a distinção entre Mi# e Fá, se soam iguais? ",
+      "options": [
+        "Ajuda a tocar mais rápido.",
+        "Para ler partituras e cifras corretamente, já que os nomes indicam funções diferentes.",
+        "Para ter mais teclas pretas no piano.",
+        "Para criar novos acordes."
+      ],
+      "answer": "Para ler partituras e cifras corretamente, já que os nomes indicam funções diferentes.",
+      "source": "Ajuda a ler partituras e cifras corretamente, já que os nomes indicam funções diferentes."
+    },
+    {
+      "question": "Qual nota é enarmonicamente igual a Sol bemol (Sol♭)? ",
+      "options": [
+        "Fá sustenido (Fá#)",
+        "Lá bemol (Lá♭)",
+        "Sol sustenido (Sol#)",
+        "Mi sustenido (Mi#)"
+      ],
+      "answer": "Fá sustenido (Fá#)",
+      "source": "Fá / Sol b."
+    }
+  ]
+}

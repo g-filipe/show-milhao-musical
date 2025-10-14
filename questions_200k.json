@@ -1,0 +1,91 @@
+{
+  "value": "R$ 200.000",
+  "topic": "Tríade Diminuta e Função Harmônica I",
+  "difficulty": "Avançado",
+  "questions": [
+    {
+      "question": "Qual dos intervalos abaixo é o que traz a tensão característica e define a Tríade Diminuta, além da Terça Menor? ",
+      "options": [
+        "Quinta Justa",
+        "Quinta Aumentada",
+        "Quinta Diminuta (♭V)",
+        "Sétima Maior"
+      ],
+      "answer": "Quinta Diminuta (♭V)",
+      "source": "Quinta diminuta (♭V) → é a nota que traz a tensão característica do acorde diminuto."
+    },
+    {
+      "question": "Qual é a fórmula de intervalos da Tríade Diminuta? ",
+      "options": [
+        "2 Tons + 1,5 Tom",
+        "1,5 Tom + 2 Tons",
+        "1,5 Tom + 1,5 Tom",
+        "2 Tons + 2 Tons"
+      ],
+      "answer": "1,5 Tom + 1,5 Tom",
+      "source": "Conte 1,5 tom acima → terá a terça menor. Conte mais 1,5 tom acima → terá a quinta diminuta."
+    },
+    {
+      "question": "A Tríade Diminuta tem uma função fortemente instável na música, pois sempre pede o quê? ",
+      "options": [
+        "Silêncio total.",
+        "Improvisação de bateria.",
+        "Resolução para um acorde maior ou menor próximo.",
+        "Repetição imediata da tônica."
+      ],
+      "answer": "Resolução para um acorde maior ou menor próximo.",
+      "source": "O acorde diminuto tem uma função fortemente instável. Ele cria tensão e quase sempre pede resolução para um acorde maior ou menor que esteja próximo."
+    },
+    {
+      "question": "Qual é a composição da Tríade Diminuta de Si (Bº)? ",
+      "options": [
+        "Si - Ré - Fá",
+        "Si - Ré# - Fá#",
+        "Si - Ré - Fá#",
+        "Si - Ré# - Fá"
+      ],
+      "answer": "Si - Ré - Fá",
+      "source": "(Si) → tônica | (Ré) → 3ª menor | (Fá) → 5ª diminuta."
+    },
+    {
+      "question": "No exemplo C → C#dim → Dm, o acorde diminuto está funcionando como um acorde de: ",
+      "options": ["Repouso", "Resolução Final", "Passagem", "Tônica"],
+      "answer": "Passagem",
+      "source": "Pode funcionar como um acorde de passagem (ex.: C  C#dim → Dm)."
+    },
+    {
+      "question": "Como podemos resumir a função do acorde diminuto na música? ",
+      "options": [
+        "Acorde de repouso.",
+        "Acorde de conclusão, ou fim feliz.",
+        "Acorde de suspense, que não 'fica parado'.",
+        "Acorde que dá estabilidade."
+      ],
+      "answer": "Acorde de suspense, que não 'fica parado'.",
+      "source": "pense no diminuto como um acorde de suspense — ele nunca “fica paradoˮ, sempre quer resolver em outro acorde!."
+    },
+    {
+      "question": "Na Tríade Diminuta, a Terça Menor (♭III) é a nota que carrega qual sonoridade? ",
+      "options": ["Tensa", "Forte", "Feliz", "Triste"],
+      "answer": "Triste",
+      "source": "Terça menor (♭III) → define o acorde como menor (carrega a sonoridade “tristeˮ)."
+    },
+    {
+      "question": "O acorde Diminuto é formado pela sobreposição de quais intervalos (em relação à fundamental)? ",
+      "options": [
+        "Terça Maior e Quinta Justa.",
+        "Terça Menor e Quinta Justa.",
+        "Terça Menor e Quinta Diminuta.",
+        "Terça Maior e Quinta Aumentada."
+      ],
+      "answer": "Terça Menor e Quinta Diminuta.",
+      "source": "Tríade Diminuta ○ Estrutura: Fundamental + Terça Menor + Quinta Diminuta."
+    },
+    {
+      "question": "Se a tônica é Dó. Qual é a nota da Quinta Diminuta (♭V)? ",
+      "options": ["Sol", "Sol sustenido (Sol#)", "Sol bemol (Sol♭)", "Fá"],
+      "answer": "Sol bemol (Sol♭)",
+      "source": "Exemplo: Cº (Dó diminuto) → C – E♭ - G♭."
+    }
+  ]
+}

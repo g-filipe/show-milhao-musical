@@ -1,0 +1,92 @@
+{
+  "value": "R$ 40.000",
+  "topic": "Escala Maior - Estrutura",
+  "difficulty": "Avançado/Médio",
+  "questions": [
+    {
+      "question": "Uma escala é uma sequência organizada de notas musicais. Qual é o nome do I grau da escala? ",
+      "options": ["Dominante", "Oitava", "Tônica", "Subdominante"],
+      "answer": "Tônica",
+      "source": "As notas que compõem uma escala são enumeradas em graus, sendo o I grau chamado de tônica."
+    },
+    {
+      "question": "Qual é a fórmula de intervalos (Tons e Semitons) que define a Escala Maior? ",
+      "options": [
+        "T - St - T - T - T - St - T",
+        "T - T - T - St - T - T - St",
+        "T - T - St - T - T - T - St",
+        "St - T - T - St - T - T - T"
+      ],
+      "answer": "T - T - St - T - T - T - St",
+      "source": "A escala maior segue um padrão fixo de tons (T) e semitons (St): I —– II —– III —– IV —– V —– VI —– VII —– VII T T St T T T St."
+    },
+    {
+      "question": "Qual intervalo separa o III (Terça) e o IV (Quarta) grau da Escala Maior? ",
+      "options": [
+        "Um Tom",
+        "Um Semitom",
+        "Uma Terça Maior",
+        "Uma Quinta Justa"
+      ],
+      "answer": "Um Semitom",
+      "source": "III → IV ½ TOM OU SEMITOM."
+    },
+    {
+      "question": "Na escala de Dó Maior (Dó - Ré - Mi - Fá - Sol - Lá - Si - Dó), onde ocorre o primeiro semitom (St)? ",
+      "options": [
+        "Entre Dó e Ré.",
+        "Entre Ré e Mi.",
+        "Entre Mi e Fá.",
+        "Entre Lá e Si."
+      ],
+      "answer": "Entre Mi e Fá.",
+      "source": "I –T– II –T– III –St– IV –T– V –T– VI –T– VII –St– VIII Dó Ré Mi Fá Sol Lá Si Dó."
+    },
+    {
+      "question": "O VIII (oitavo) grau de uma escala é sempre igual a qual outro grau? ",
+      "options": [
+        "O III grau (Terça).",
+        "O V grau (Quinta).",
+        "O I grau (Tônica), repetido em uma oitava.",
+        "O VII grau (Sétima)."
+      ],
+      "answer": "O I grau (Tônica), repetido em uma oitava.",
+      "source": "e o VIII grau é chamado de oitava (ou seja é a tônica repetida em uma região mais aguda)."
+    },
+    {
+      "question": "Na Escala Maior, qual o intervalo entre o VII grau (Sensível) e o VIII grau (Oitava)? ",
+      "options": ["Um Semitom", "Um Tom", "Uma Terça", "Uma Quarta"],
+      "answer": "Um Semitom",
+      "source": "VII → VIII ½ TOM OU SEMITOM."
+    },
+    {
+      "question": "Na escala de Dó Maior, qual nota é o V grau (Dominante)? ",
+      "options": ["Fá", "Sol", "Ré", "Lá"],
+      "answer": "Sol",
+      "source": "Escala de Dó Maior Dó Ré Mi Fá Sol Lá Si Dó."
+    },
+    {
+      "question": "Qual dos graus da Escala Maior é considerado a 'base sobre a qual construímos acordes, melodias e harmonias'? ",
+      "options": ["Terça", "Quinta", "Oitava", "Tônica (I grau)"],
+      "answer": "Tônica (I grau)",
+      "source": "A escala é como o 'alfabeto' da música, a base sobre a qual construímos acordes, melodias e harmonias. As notas que compõem uma escala são enumeradas em graus, sendo o I grau chamado de tônica."
+    },
+    {
+      "question": "Qual é o intervalo entre o I e o II grau da Escala Maior? ",
+      "options": ["Meio Tom", "1 Tom", "1 Tom e meio", "2 Tons"],
+      "answer": "1 Tom",
+      "source": "I → II 1 TOM."
+    },
+    {
+      "question": "O que as escalas ajudam o músico a entender dentro de uma tonalidade? ",
+      "options": [
+        "Apenas a digitação no teclado.",
+        "Como os acordes se relacionam (Campos Harmônicos).",
+        "Apenas a duração das notas.",
+        "Apenas o volume do som."
+      ],
+      "answer": "Como os acordes se relacionam (Campos Harmônicos).",
+      "source": "Entender campos harmônicos As escalas são a base para compreender como os acordes se relacionam dentro de uma tonalidade."
+    }
+  ]
+}

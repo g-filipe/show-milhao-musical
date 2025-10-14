@@ -1,0 +1,92 @@
+{
+  "value": "R$ 50.000",
+  "topic": "Acordes e Tríades - Definição",
+  "difficulty": "Avançado",
+  "questions": [
+    {
+      "question": "Quantas notas diferentes são necessárias, no mínimo, para que um conjunto de notas tocadas simultaneamente seja considerado um 'Acorde'? ",
+      "options": [
+        "Duas notas.",
+        "Três notas.",
+        "Quatro notas.",
+        "Cinco notas."
+      ],
+      "answer": "Três notas.",
+      "source": "Um acorde é formado quando tocamos três ou mais notas diferentes ao mesmo tempo."
+    },
+    {
+      "question": "Como se chama um acorde formado por apenas três notas diferentes? ",
+      "options": ["Tétrade", "Tríade", "Sétima", "Intervalo"],
+      "answer": "Tríade",
+      "source": "Tríades → formadas por 3 notas diferentes."
+    },
+    {
+      "question": "A nota principal que dá nome ao acorde é chamada de: ",
+      "options": ["Terça", "Quinta", "Fundamental (ou Tônica)", "Sétima"],
+      "answer": "Fundamental (ou Tônica)",
+      "source": "Os acordes são construídos a partir de uma nota principal chamada fundamental (ou tônica). Essa é a nota que dá nome ao acorde."
+    },
+    {
+      "question": "Qual é o intervalo (distância musical) que se 'empilha' a partir da Fundamental para criar a estrutura básica dos acordes? ",
+      "options": ["Terças", "Quartas", "Sextas", "Oitavas"],
+      "answer": "Terças",
+      "source": "A partir da fundamental, empilhamos intervalos de terça (distâncias musicais de três notas). Essa sobreposição de terças cria a estrutura dos acordes."
+    },
+    {
+      "question": "Quais são os três intervalos que compõem uma Tríade? ",
+      "options": [
+        "Tônica, Segunda e Terça.",
+        "Tônica, Terça e Sétima.",
+        "Tônica, Terça e Quinta.",
+        "Fundamental, Sétima e Nona."
+      ],
+      "answer": "Tônica, Terça e Quinta.",
+      "source": "Elas são compostas por: a fundamental (Tônica) uma terça (maior ou menor) uma quinta (justa, aumentada ou diminuta)."
+    },
+    {
+      "question": "Qual das notas é a 'base' ou ponto de partida para a formação de um acorde? ",
+      "options": [
+        "Quinta justa (V)",
+        "Terça maior (III)",
+        "Tônica (I)",
+        "Sétima menor (♭VII)"
+      ],
+      "answer": "Tônica (I)",
+      "source": "Tônica (I) → é a nota de partida, a “baseˮ do acorde."
+    },
+    {
+      "question": "Se tocamos apenas duas notas juntas, o termo técnico correto para isso é: ",
+      "options": ["Acorde", "Tríade", "Intervalo", "Tétrade"],
+      "answer": "Intervalo",
+      "source": "quando tocamos apenas duas notas juntas, isso não é considerado acorde, e sim um intervalo."
+    },
+    {
+      "question": "Qual dos elementos abaixo é responsável por definir se um acorde é maior ou menor? ",
+      "options": [
+        "A Tônica.",
+        "A Terça (maior ou menor).",
+        "A Quinta (justa ou diminuta).",
+        "A Sétima."
+      ],
+      "answer": "A Terça (maior ou menor).",
+      "source": "Terça maior (III) → é a 3ª que o define se o acorde é maior ou menor."
+    },
+    {
+      "question": "Qual nota, na estrutura da Tríade Maior, tem a função de dar 'estabilidade' ao acorde? ",
+      "options": ["Tônica", "Terça Maior", "Quinta Justa", "Sétima Menor"],
+      "answer": "Quinta Justa",
+      "source": "Quinta justa (V) → dá estabilidade ao acorde."
+    },
+    {
+      "question": "Qual é a tríade mais básica, formada por Fundamental + Terça Maior + Quinta Justa? ",
+      "options": [
+        "Tríade Diminuta",
+        "Tríade Menor",
+        "Tríade Maior",
+        "Tríade Aumentada"
+      ],
+      "answer": "Tríade Maior",
+      "source": "Tríade Maior ○ Estrutura: Fundamental + Terça Maior + Quinta Justa."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "value": "R$ 300.000",
+  "topic": "Tétrades (Acordes de 4 Notas)",
+  "difficulty": "Avançado",
+  "questions": [
+    {
+      "question": "Um acorde formado por quatro notas é chamado de: ",
+      "options": ["Tríade", "Intervalo", "Quádruplo", "Tétrade"],
+      "answer": "Tétrade",
+      "source": "Tétrades → formadas por 4 notas diferentes. As tétrades são acordes formados por quatro notas."
+    },
+    {
+      "question": "Qual nota é adicionada a uma tríade para formar uma tétrade, trazendo profundidade, cor e tensão harmônica? ",
+      "options": ["A Segunda.", "A Sétima.", "A Quarta.", "A Nona."],
+      "answer": "A Sétima.",
+      "source": "As tétrades são acordes formados por quatro notas — em outras palavras, uma tríade com uma nota adicional, a sétima. Essa quarta nota traz profundidade, cor e tensão harmônica, tornando o acorde mais expressivo e sofisticado."
+    },
+    {
+      "question": "Qual é a estrutura de uma Tétrade Maior com Sétima Maior (Maj7 ou 7M)? ",
+      "options": [
+        "Fundamental + Terça Menor + Quinta Justa + Sétima Menor.",
+        "Fundamental + Terça Maior + Quinta Justa + Sétima Maior.",
+        "Fundamental + Terça Maior + Quinta Aumentada + Sétima Maior.",
+        "Fundamental + Terça Menor + Quinta Diminuta + Sétima Menor."
+      ],
+      "answer": "Fundamental + Terça Maior + Quinta Justa + Sétima Maior.",
+      "source": "Tétrade Maior com Sétima Maior (Maj7 ou 7M ou 7+) ○ Estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Maior."
+    },
+    {
+      "question": "Qual Tétrade é tipicamente 'introspectiva e expressiva' e muito usada no jazz e R&B? ",
+      "options": [
+        "Tétrade Dominante (7)",
+        "Tétrade Maior com Sétima Maior (7M)",
+        "Tétrade Menor com Sétima Menor (m7)",
+        "Tétrade Aumentada (aug)"
+      ],
+      "answer": "Tétrade Menor com Sétima Menor (m7)",
+      "source": "Tétrade Menor com Sétima Menor (m7) ○ ... ○ Som: introspectivo e expressivo — típico do jazz, soul e R&B."
+    },
+    {
+      "question": "Qual é o nome da tétrade que possui a seguinte estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Menor? ",
+      "options": [
+        "Tétrade Maior com Sétima Maior (7M)",
+        "Tétrade Dominante (7)",
+        "Tétrade Menor com Sétima Menor (m7)",
+        "Tétrade Diminuta (dim)"
+      ],
+      "answer": "Tétrade Dominante (7)",
+      "source": "Tétrade Dominante (7) ○ Estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Menor."
+    },
+    {
+      "question": "Qual tétrade tem um som 'calmo, sofisticado e 'aberto'' e é usada para criar uma atmosfera suave ou encerrar músicas? ",
+      "options": [
+        "Dominante (7)",
+        "Menor (m7)",
+        "Maior com Sétima Maior (Maj7)",
+        "Diminuta (dim)"
+      ],
+      "answer": "Maior com Sétima Maior (Maj7)",
+      "source": "Tétrade Maior com Sétima Maior (Maj7 ou 7M ou 7+) ... ○ Som: calmo, sofisticado e “aberto” — muito usado para encerrar músicas ou criar atmosfera suave."
+    },
+    {
+      "question": "Em comparação com a Tríade, o que a adição da sétima em uma Tétrade proporciona à harmonia? ",
+      "options": [
+        "Maior simplicidade.",
+        "Maior repouso e estabilidade.",
+        "Profundidade, cor e tensão harmônica.",
+        "Melhor adaptação para o rock."
+      ],
+      "answer": "Profundidade, cor e tensão harmônica.",
+      "source": "Essa quarta nota traz profundidade, cor e tensão harmônica, tornando o acorde mais expressivo e sofisticado."
+    },
+    {
+      "question": "Qual é a composição do acorde Dó com sétima maior (Cmaj7)? ",
+      "options": [
+        "Dó - Mi - Sol - Lá#",
+        "Dó - Mi♭ - Sol - Si♭",
+        "Dó - Mi - Sol - Si",
+        "Dó - Fá - Sol - Si"
+      ],
+      "answer": "Dó - Mi - Sol - Si",
+      "source": "Exemplo: Cmaj7 (Dó com sétima maior) → C - E - G - B."
+    },
+    {
+      "question": "Qual é a composição do acorde Dó menor com sétima menor (Cm7)? ",
+      "options": [
+        "Dó - Mi - Sol - Lá#",
+        "Dó - Mi♭ - Sol - Si♭",
+        "Dó - Mi - Sol - Si",
+        "Dó - Fá - Sol - Lá"
+      ],
+      "answer": "Dó - Mi♭ - Sol - Si♭",
+      "source": "Exemplo: Cm7 (Dó menor com sétima menor) → C - E♭ - G - B♭."
+    },
+    {
+      "question": "Qual tipo de acorde é a base da harmonia moderna, muito presente no jazz, pop, MPB e música gospel? ",
+      "options": ["Tríade", "Tétrade", "Intervalo", "Acorde de Passagem"],
+      "answer": "Tétrade",
+      "source": "As tétrades são a base da harmonia moderna, muito presentes no jazz, pop, MPB e música gospel."
+    }
+  ]
+}

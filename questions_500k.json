@@ -1,0 +1,107 @@
+{
+  "value": "R$ 500.000",
+  "topic": "Função Harmônica: Dominante e Ciclo Completo",
+  "difficulty": "Expert",
+  "questions": [
+    {
+      "question": "Na progressão harmônica, qual é a função principal dos acordes que pertencem à DOMINANTE (como V e viiº)? ",
+      "options": [
+        "Trazer repouso e conclusão.",
+        "Transição leve.",
+        "Criar Tensão, expectativa e preparar o retorno à tônica.",
+        "Indicar o início da música."
+      ],
+      "answer": "Criar Tensão, expectativa e preparar o retorno à tônica.",
+      "source": "Dominante V – viiº B7 - D#m7(♭5) Tensão, expectativa Forte Cria expectativa, prepara o retorno à tônica."
+    },
+    {
+      "question": "O acorde Dominante (V) é associado a qual tipo de movimento? ",
+      "options": ["Nenhum", "Leve", "Forte", "Estático"],
+      "answer": "Forte",
+      "source": "Dominante... Tipo de Movimento Forte."
+    },
+    {
+      "question": "Qual é o acorde que representa o V grau (Dominante) na tonalidade de Mi Maior? ",
+      "options": [
+        "Lá (A)",
+        "Si com sétima (B7)",
+        "Mi (E)",
+        "Fá sustenido menor (F#m)"
+      ],
+      "answer": "Si com sétima (B7)",
+      "source": "Dominante V – viiº B7 - D#m7(♭5)."
+    },
+    {
+      "question": "Qual é o fluxo natural e completo da harmonia, formando o 'Ciclo Harmônico Completo'? ",
+      "options": [
+        "Dominante → Tônica → Subdominante → Tônica",
+        "Tônica → Tônica → Subdominante → Dominante",
+        "Tônica → Subdominante → Dominante → Tônica",
+        "Subdominante → Tônica → Dominante → Tônica"
+      ],
+      "answer": "Tônica → Subdominante → Dominante → Tônica",
+      "source": "O Ciclo Harmônico Completo Tônica → Subdominante → Dominante → Tônica."
+    },
+    {
+      "question": "No exemplo do ciclo em Dó (C - F - G - C), qual acorde representa o 'suspense, algo vai acontecer'? ",
+      "options": [
+        "C (Tônica)",
+        "F (Subdominante)",
+        "G (Dominante)",
+        "C (Final)"
+      ],
+      "answer": "G (Dominante)",
+      "source": "G (V) = “suspense, algo vai acontecer”."
+    },
+    {
+      "question": "O acorde Dominante é caracterizado pela sétima de qual tipo? ",
+      "options": [
+        "Sétima Maior (7M)",
+        "Sétima Menor (7)",
+        "Sétima Aumentada",
+        "Nona"
+      ],
+      "answer": "Sétima Menor (7)",
+      "source": "Tétrade Dominante (7) ○ Estrutura: Fundamental + Terça Maior + Quinta Justa + Sétima Menor."
+    },
+    {
+      "question": "Qual dos acordes abaixo pertence à função Tônica na tonalidade de Mi Maior? ",
+      "options": [
+        "Lá (A)",
+        "Si com sétima (B7)",
+        "Dó sustenido menor (C#m)",
+        "Mi (E)"
+      ],
+      "answer": "Dó sustenido menor (C#m)",
+      "source": "Tônica I – vi – iii E - C#m - F#m."
+    },
+    {
+      "question": "Na Tonalidade de Mi Maior (E), qual dos acordes pertence à função Subdominante? ",
+      "options": [
+        "Mi (E)",
+        "Si com sétima (B7)",
+        "Lá (A)",
+        "Dó sustenido menor (C#m)"
+      ],
+      "answer": "Lá (A)",
+      "source": "Subdominante IV – ii A - F#m."
+    },
+    {
+      "question": "Qual é a tríade que possui dois intervalos de 1,5 Tom em sua estrutura? ",
+      "options": ["Maior", "Menor", "Aumentada", "Diminuta"],
+      "answer": "Diminuta",
+      "source": "Conte 1,5 tom acima → terá a terça menor. Conte mais 1,5 tom acima → terá a quinta diminuta."
+    },
+    {
+      "question": "No violão/baixo, a técnica de usar 'shapes' móveis no braço é utilizada para representar o quê? ",
+      "options": [
+        "Apenas o Ritmo.",
+        "Apenas a Melodia.",
+        "Escalas e acordes em diferentes posições.",
+        "Apenas o Timbre."
+      ],
+      "answer": "Escalas e acordes em diferentes posições.",
+      "source": "Nos instrumentos de corda, como o violão, utilizamos shapes – desenhos móveis no braço que representam escalas e acordes."
+    }
+  ]
+}

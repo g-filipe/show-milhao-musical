@@ -1,0 +1,107 @@
+{
+  "value": "R$ 400.000",
+  "topic": "Função Harmônica: Tônica e Subdominante",
+  "difficulty": "Expert",
+  "questions": [
+    {
+      "question": "Na teoria harmônica, qual é a função principal dos acordes que pertencem à TÔNICA (como I e vi)? ",
+      "options": [
+        "Criar a maior tensão e expectativa.",
+        "Servir como transição para a Dominante.",
+        "Trazer Repouso, conclusão ou estabilidade.",
+        "Possuir a Quinta Diminuta."
+      ],
+      "answer": "Trazer Repouso, conclusão ou estabilidade.",
+      "source": "Tônica — o ponto de repouso. Tônica I – vi – iii E - C#m - F#m Repouso, conclusão Nenhum Ponto de partida e chegada."
+    },
+    {
+      "question": "Na progressão harmônica, qual é o movimento associado à função Tônica? ",
+      "options": [
+        "Nenhum (Repouso)",
+        "Leve (Transição)",
+        "Forte (Tensão)",
+        "Cíclico"
+      ],
+      "answer": "Nenhum (Repouso)",
+      "source": "Tônica... Tipo de Movimento Nenhum."
+    },
+    {
+      "question": "Qual é o papel da função SUBDOMINANTE na progressão harmônica (IV e ii)? ",
+      "options": [
+        "Criar tensão máxima.",
+        "Atuar como Ponto de partida e chegada.",
+        "Promover Abertura, transição entre o repouso e a tensão.",
+        "Concluir a frase musical."
+      ],
+      "answer": "Promover Abertura, transição entre o repouso e a tensão.",
+      "source": "Subdominante IV – ii A - F#m Abertura, transição Leve Transição entre repouso e tensão."
+    },
+    {
+      "question": "O acorde Subdominante (IV) é associado a qual tipo de movimento? ",
+      "options": ["Nenhum", "Leve", "Forte", "Exclusivo"],
+      "answer": "Leve",
+      "source": "Subdominante... Tipo de Movimento Leve."
+    },
+    {
+      "question": "Qual é o acorde que representa o I grau (Tônica) na tonalidade de Mi Maior? ",
+      "options": ["Mi menor (Em)", "Si menor (Bm)", "Lá (A)", "Mi (E)"],
+      "answer": "Mi (E)",
+      "source": "Tônica I – vi – iii E - C#m - F#m."
+    },
+    {
+      "question": "Qual é a característica do acorde Tônica, de acordo com o resumo das funções harmônicas? ",
+      "options": [
+        "Tensão, expectativa.",
+        "Abertura, transição.",
+        "Repouso, conclusão.",
+        "Instabilidade."
+      ],
+      "answer": "Repouso, conclusão.",
+      "source": "Tônica... Característica Repouso, conclusão."
+    },
+    {
+      "question": "Qual dos acordes abaixo pertence à função Tônica na tonalidade de Mi Maior? ",
+      "options": [
+        "Lá (A)",
+        "Si com sétima (B7)",
+        "Mi (E)",
+        "Fá sustenido menor (F#m)"
+      ],
+      "answer": "Mi (E)",
+      "source": "Tônica I – vi – iii E - C#m - F#m."
+    },
+    {
+      "question": "O que acontece com as notas ao subir casas em direção ao corpo do instrumento no violão? ",
+      "options": [
+        "Elas se repetem em oitavas cada vez mais graves.",
+        "Elas se repetem em oitavas cada vez mais agudas.",
+        "Elas mudam de timbre.",
+        "Elas se tornam semitons."
+      ],
+      "answer": "Elas se repetem em oitavas cada vez mais agudas.",
+      "source": "No violão/baixo, esse ciclo é representado no braço: ao subir casas em direção ao corpo do instrumento, as notas vão se repetindo em oitavas cada vez mais agudas."
+    },
+    {
+      "question": "Qual é o propósito da música no contexto do culto cristão, sob a perspectiva reformada? ",
+      "options": [
+        "Entreter o público.",
+        "Glorificar a Deus, instruir os fiéis e edificar a congregação.",
+        "Apenas cumprir um ritual.",
+        "Apenas ser uma expressão emocional."
+      ],
+      "answer": "Glorificar a Deus, instruir os fiéis e edificar a congregação.",
+      "source": "Neste contexto, a música tem, portanto, um triplo propósito."
+    },
+    {
+      "question": "No braço do violão ou baixo, a ausência de traste intermediário entre Mi e Fá significa o quê? ",
+      "options": [
+        "A nota Fá não existe.",
+        "Elas estão separadas por um Tom inteiro.",
+        "Elas estão separadas por um Semitom (meio tom) direto.",
+        "Mi e Fá são enarmônicas."
+      ],
+      "answer": "Elas estão separadas por um Semitom (meio tom) direto.",
+      "source": "A ausência de nota intermediária (como entre Mi Fá e Si Dó) significa que não há traste entre eles eles estão em casas vizinhas no instrumento. Sem nota intermediária (1/2 tom direto)."
+    }
+  ]
+}

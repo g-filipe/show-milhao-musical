@@ -1,0 +1,76 @@
+{
+  "value": "R$ 100.000",
+  "topic": "Fórmulas de Tríades: Maior e Menor",
+  "difficulty": "Avançado",
+  "questions": [
+    {
+      "question": "A Tríade Maior (Tônica, Terça Maior, Quinta Justa) pode ser resumida na fórmula de intervalos (tons e semitons): ",
+      "options": [
+        "1,5 Tom + 2 Tons",
+        "2 Tons + 1,5 Tom",
+        "1,5 Tom + 1,5 Tom",
+        "2 Tons + 2 Tons"
+      ],
+      "answer": "2 Tons + 1,5 Tom",
+      "source": "Fórmula: 2t + 1,5t."
+    },
+    {
+      "question": "Se a Tônica é Fá e a Terça Maior está 2 Tons acima, qual é a nota da Terça Maior? ",
+      "options": ["Lá", "Lá bemol (Lá♭)", "Sol", "Si bemol (Si♭)"],
+      "answer": "Lá",
+      "source": "Conte 2 tons acima → terá a terça maior."
+    },
+    {
+      "question": "A Tríade Menor (Tônica, Terça Menor, Quinta Justa) é resumida na fórmula de intervalos: ",
+      "options": [
+        "1,5 Tom + 2 Tons",
+        "2 Tons + 1,5 Tom",
+        "1,5 Tom + 1,5 Tom",
+        "2 Tons + 2 Tons"
+      ],
+      "answer": "1,5 Tom + 2 Tons",
+      "source": "Fórmula: 1,5t + 2t."
+    },
+    {
+      "question": "Qual é a nota da Terça Menor, se a Tônica for Ré? ",
+      "options": ["Fá sustenido (Fá#)", "Mi", "Fá", "Sol"],
+      "answer": "Fá",
+      "source": "Conte 1,5 tom acima → terá a terça menor."
+    },
+    {
+      "question": "Qual é o 'pulo do gato' prático para transformar um acorde Maior em um acorde Menor? ",
+      "options": [
+        "Aumentar meio tom na quinta.",
+        "Baixar meio tom na tônica.",
+        "Baixar meio tom na 3ª (Terça).",
+        "Aumentar meio tom na 5ª."
+      ],
+      "answer": "Baixar meio tom na 3ª (Terça).",
+      "source": "Basta “baixar meio tom na 3ªˮ do acorde maior, e você já tem o acorde menor."
+    },
+    {
+      "question": "Qual é a nota da Quinta Justa (1,5 Tom acima da Terça Maior) no acorde de Dó Maior (C)? ",
+      "options": ["Fá", "Lá", "Sol", "Si"],
+      "answer": "Sol",
+      "source": "Dó → Mi = 2 tons (terça maior) Mi → Sol = 1,5 tom Composição: Dó – Mi – Sol."
+    },
+    {
+      "question": "Qual é o intervalo entre a Tônica e a Terça Menor? ",
+      "options": ["Um Tom", "Um Semitom", "Um Tom e Meio", "Dois Tons"],
+      "answer": "Um Tom e Meio",
+      "source": "Dó → Mib = 1,5 tom (terça menor)."
+    },
+    {
+      "question": "Qual dos tipos de tríade abaixo possui a Terça Menor e a Quinta Justa em sua composição? ",
+      "options": ["Maior", "Aumentada", "Menor", "Diminuta"],
+      "answer": "Menor",
+      "source": "Tríade Menor ○ Estrutura: Fundamental + Terça Menor + Quinta Justa."
+    },
+    {
+      "question": "No acorde de Lá menor (Am), a tônica é Lá. Qual é a nota da Terça Menor (1,5 Tom acima)? ",
+      "options": ["Dó", "Dó sustenido (Dó#)", "Si", "Mi"],
+      "answer": "Dó",
+      "source": "Conte 1,5 tom acima → terá a terça menor."
+    }
+  ]
+}

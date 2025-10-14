@@ -1,0 +1,75 @@
+{
+  "value": "R$ 30.000",
+  "topic": "Cifras de Acordes",
+  "difficulty": "Médio/Avançado",
+  "questions": [
+    {
+      "question": "Como se representa, em cifras, um acorde de Lá menor? ",
+      "options": ["La", "Am", "Lá m", "A7"],
+      "answer": "Am",
+      "source": "para representar um acorde menor, utilizamos a letra 'm' em minúsculo ao lado da cifra. Am → Lá menor."
+    },
+    {
+      "question": "O que a cifra 'A7' representa? ",
+      "options": [
+        "Lá maior com sétima maior.",
+        "Lá menor com sétima.",
+        "Lá maior com sétima menor.",
+        "Lá maior com nona."
+      ],
+      "answer": "Lá maior com sétima menor.",
+      "source": "A7 → Lá com sétima . se estiver escrito apenas '7', entende-se que é uma sétima menor."
+    },
+    {
+      "question": "O que o acréscimo de '7M' a uma cifra (Ex: C7M) indica? ",
+      "options": [
+        "Sétima menor.",
+        "Sétima maior.",
+        "Nona aumentada.",
+        "Acorde diminuto."
+      ],
+      "answer": "Sétima maior.",
+      "source": "A7M ou A7+ → Lá com sétima maior. Se for sétima maior, aparece escrito '7M'."
+    },
+    {
+      "question": "A cifra 'G#m' representa qual acorde? ",
+      "options": [
+        "Sol bemol menor.",
+        "Sol sustenido menor.",
+        "Sol maior com sétima.",
+        "Sol sustenido maior."
+      ],
+      "answer": "Sol sustenido menor.",
+      "source": "para representar um acorde menor, utilizamos a letra 'm' em minúsculo ao lado da cifra. Ex.: Am = Lá menor, G#m = Sol sustenido menor."
+    },
+    {
+      "question": "Qual símbolo é utilizado para representar um acorde diminuto? ",
+      "options": ["o (grau)", "Δ (delta)", "m (minúscula)", "7 (sétima)"],
+      "answer": "o (grau)",
+      "source": "Aº = Lá diminuto."
+    },
+    {
+      "question": "Qual dos símbolos abaixo representa um acorde menor com sétima menor? ",
+      "options": ["Cm7M", "Cm", "C7", "Cm7"],
+      "answer": "Cm7",
+      "source": "Cm7 → Dó menor com sétima menor."
+    },
+    {
+      "question": "Qual é a tônica do acorde F#m (Fá sustenido menor)? ",
+      "options": ["Fá", "Sol", "Fá sustenido", "Mi"],
+      "answer": "Fá sustenido",
+      "source": "Os acordes são construídos a partir de uma nota principal chamada fundamental (ou tônica). Essa é a nota que dá nome ao acorde."
+    },
+    {
+      "question": "O que a cifra 'Bm7(b5)' representa? ",
+      "options": [
+        "Si maior com sétima e quinta aumentada.",
+        "Si maior com sétima e quinta justa.",
+        "Si meio diminuto (menor com sétima e quinta diminuta).",
+        "Si menor com sexta."
+      ],
+      "answer": "Si meio diminuto (menor com sétima e quinta diminuta).",
+      "source": "Bm7(b5) = Si meio diminuto."
+    }
+  ]
+}
