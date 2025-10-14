@@ -1,0 +1,70 @@
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  background: #222;
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.4s;
+  user-select: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.flipped {
+  background: var(--color-secondary);
+  color: var(--color-text-dark);
+  font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: var(--color-primary);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 50px var(--color-secondary);
+}
+
+.modal-content h2 {
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#help-info-content {
+  margin-bottom: 20px;
+}

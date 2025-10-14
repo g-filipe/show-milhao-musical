@@ -1,0 +1,48 @@
+:root {
+  --color-primary: #004c9e;
+  --color-secondary: #ffc400;
+  --color-tertiary: #c10000;
+  --color-success: #00a000;
+  --color-background: #001f3f;
+  --color-text-light: #ffffff;
+  --color-text-dark: #333333;
+  --color-box-bg: #1c2a38;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--color-text-light);
+  padding: 20px;
+}
+
+.title-h1 {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
+.title-h2 {
+  font-size: 1.5rem;
+  color: var(--color-text-light);
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-secondary);
+  padding-bottom: 5px;
+}
+
+.title-h3 {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  margin-top: 15px;
+}
