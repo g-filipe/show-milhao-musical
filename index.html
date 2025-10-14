@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Show do Milhão da Música</title>
+
+    <base href="/show-milhao-musical/" />
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
@@ -124,8 +127,19 @@
           </button>
         </div>
       </div>
+      <div id="pulo-gif-modal" class="modal hidden">
+        <div class="modal-content pulo-gif-modal-content">
+          <h2>Pulo Ativado!</h2>
+          <p>Buscando uma nova pergunta...</p>
+          <img
+            src="assets/horse_jumping.gif"
+            alt="Horse jumping rope"
+            class="pulo-gif"
+          />
+        </div>
+      </div>
     </main>
 
-    <script src="src/main.js" type="module"></script>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
