@@ -1,0 +1,12 @@
+{
+  "name": "show-do-milhao-musica",
+  "version": "1.0.0",
+  "description": "A 'Show do Milhão' style game, focused on music questions",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filipe Galvão",
+  "license": "ISC"
+}

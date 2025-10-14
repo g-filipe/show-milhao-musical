@@ -1,104 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Show do Milhão da Música</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main class="game-container">
-        
-        <div class="prize-ladder-container">
-            <h2 class="title-h2">Placar de Prêmios</h2>
-            <div id="prize-ladder" class="prize-ladder">
-                </div>
-            
-            <div class="current-status">
-                <p>Prêmio Acumulado:</p>
-                <span id="current-prize">R$ 0</span>
-                <p>Prêmio Garantido:</p>
-                <span id="guaranteed-prize">R$ 0</span>
-            </div>
+      <div class="prize-ladder-container">
+        <h2 class="title-h2">Placar de Prêmios</h2>
+        <div id="prize-ladder" class="prize-ladder"></div>
+
+        <div class="current-status">
+          <p>Prêmio Acumulado:</p>
+          <span id="current-prize">R$ 0</span>
+          <p>Prêmio Garantido:</p>
+          <span id="guaranteed-prize">R$ 0</span>
+        </div>
+      </div>
+
+      <div class="question-area">
+        <div class="header">
+          <span id="timer" class="timer">45</span>
+          <h1 class="title-h1">Show do Milhão da Música</h1>
+          <span id="question-number" class="question-number"
+            >Pergunta 1/16</span
+          >
         </div>
 
-        <div class="question-area">
-            <div class="header">
-                <span id="timer" class="timer">45</span>
-                <h1 class="title-h1">Show do Milhão da Música</h1>
-                <span id="question-number" class="question-number">Pergunta 1/16</span>
-            </div>
-            
-            <div id="question-box" class="question-box">
-                <p id="question-text" class="question-text">Pressione "INICIAR JOGO" para começar!</p>
-            </div>
-
-            <div id="alternatives" class="alternatives-grid">
-                </div>
-            
-            <div class="help-controls">
-                <h3 class="title-h3">Ajudas Disponíveis <span id="help-blocked-text"></span></h3>
-                <div class="help-buttons">
-                    <button id="help-pulo" class="help-btn" data-help="pulo">Pular</button>
-                    <button id="help-cartas" class="help-btn" data-help="cartas">Cartas</button>
-                    <button id="help-placas" class="help-btn" data-help="placas">Placas</button>
-                    <button id="help-universitarios" class="help-btn" data-help="universitarios">Universitários</button>
-                </div>
-                <div id="help-message" class="help-message hidden"></div>
-            </div>
-
-            <div id="prize-summary-area" class="prize-summary-area">
-                <div class="prize-info error">
-                    <p>ERRAR</p>
-                    <span id="prize-errar">R$ 0</span>
-                </div>
-                <div class="prize-info stop">
-                    <p>PARAR</p>
-                    <span id="prize-parar">R$ 0</span>
-                </div>
-                <div class="prize-info correct">
-                    <p>ACERTAR</p>
-                    <span id="prize-acertar">R$ 0</span>
-                </div>
-            </div>
-
-            <div class="action-controls">
-                <button id="btn-start" class="action-btn start-btn">INICIAR JOGO</button>
-                <button id="btn-stop" class="action-btn stop-btn hidden">PARAR (R$ <span id="stop-value">0</span>)</button>
-                <button id="btn-continue" class="action-btn continue-btn hidden">CONTINUAR</button>
-            </div>
+        <div id="question-box" class="question-box">
+          <p id="question-text" class="question-text">
+            Pressione "INICIAR JOGO" para começar!
+          </p>
         </div>
 
-        <div id="game-over-modal" class="modal hidden">
-            <div class="modal-content">
-                <h2 id="modal-title">Fim de Jogo!</h2>
-                <p id="modal-message"></p>
-                <button id="btn-restart" class="action-btn start-btn">Jogar Novamente</button>
-            </div>
-        </div>
-        
-        <div id="cards-modal" class="modal hidden">
-            <div class="modal-content">
-                <h2 id="cards-modal-title">Ajuda: Cartas</h2>
-                <p>Escolha uma carta. Ela pode remover de 0 a 3 alternativas erradas.</p>
-                <div id="cards-container-modal" class="cards-container">
-                    </div>
-            </div>
+        <div id="alternatives" class="alternatives-grid"></div>
+
+        <div class="help-controls">
+          <h3 class="title-h3">
+            Ajudas Disponíveis <span id="help-blocked-text"></span>
+          </h3>
+          <div class="help-buttons">
+            <button id="help-pulo" class="help-btn" data-help="pulo">
+              Pular
+            </button>
+            <button id="help-cartas" class="help-btn" data-help="cartas">
+              Cartas
+            </button>
+            <button id="help-placas" class="help-btn" data-help="placas">
+              Placas
+            </button>
+            <button
+              id="help-universitarios"
+              class="help-btn"
+              data-help="universitarios"
+            >
+              Universitários
+            </button>
+          </div>
+          <div id="help-message" class="help-message hidden"></div>
         </div>
 
-        <div id="help-info-modal" class="modal hidden">
-            <div class="modal-content">
-                <h2 id="help-info-modal-title"></h2>
-                <p id="help-info-modal-message"></p>
-                <div id="help-info-content"></div>
-                <button id="btn-close-help-info" class="action-btn continue-btn">OK</button>
-            </div>
+        <div id="prize-summary-area" class="prize-summary-area">
+          <div class="prize-info error">
+            <p>ERRAR</p>
+            <span id="prize-errar">R$ 0</span>
+          </div>
+          <div class="prize-info stop">
+            <p>PARAR</p>
+            <span id="prize-parar">R$ 0</span>
+          </div>
+          <div class="prize-info correct">
+            <p>ACERTAR</p>
+            <span id="prize-acertar">R$ 0</span>
+          </div>
         </div>
-        
+
+        <div class="action-controls">
+          <button id="btn-start" class="action-btn start-btn">
+            INICIAR JOGO
+          </button>
+          <button id="btn-stop" class="action-btn stop-btn hidden">
+            PARAR (R$ <span id="stop-value">0</span>)
+          </button>
+          <button id="btn-continue" class="action-btn continue-btn hidden">
+            CONTINUAR
+          </button>
+        </div>
+      </div>
+
+      <div id="game-over-modal" class="modal hidden">
+        <div class="modal-content">
+          <h2 id="modal-title">Fim de Jogo!</h2>
+          <p id="modal-message"></p>
+          <button id="btn-restart" class="action-btn start-btn">
+            Jogar Novamente
+          </button>
+        </div>
+      </div>
+
+      <div id="cards-modal" class="modal hidden">
+        <div class="modal-content">
+          <h2 id="cards-modal-title">Ajuda: Cartas</h2>
+          <p>
+            Escolha uma carta. Ela pode remover de 0 a 3 alternativas erradas.
+          </p>
+          <div id="cards-container-modal" class="cards-container"></div>
+        </div>
+      </div>
+
+      <div id="help-info-modal" class="modal hidden">
+        <div class="modal-content">
+          <h2 id="help-info-modal-title"></h2>
+          <p id="help-info-modal-message"></p>
+          <div id="help-info-content"></div>
+          <button id="btn-close-help-info" class="action-btn continue-btn">
+            OK
+          </button>
+        </div>
+      </div>
     </main>
 
-    <script src="script.js"></script>
-</body>
+    <script src="src/main.js" type="module"></script>
+  </body>
 </html>
