@@ -1,0 +1,471 @@
+/* Paleta de Cores Show do Milhão */
+:root {
+    --color-primary: #004c9e; /* Azul Escuro */
+    --color-secondary: #ffc400; /* Amarelo (Dourado) */
+    --color-tertiary: #c10000; /* Vermelho (Perda/Erro) */
+    --color-success: #00a000; /* Verde (Acerto/Garantido) */
+    --color-background: #001f3f; /* Fundo do Jogo */
+    --color-text-light: #ffffff;
+    --color-text-dark: #333333;
+    --color-box-bg: #1c2a38; /* Fundo da Pergunta/Ajudas */
+}
+
+/* Estilos Globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--color-text-light);
+    padding: 20px;
+}
+
+.game-container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    background-color: #002e63; /* Fundo mais suave para o container */
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Títulos */
+.title-h1 {
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+}
+
+.title-h2 {
+    font-size: 1.5rem;
+    color: var(--color-text-light);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom: 5px;
+}
+
+.title-h3 {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    margin-top: 15px;
+}
+
+/* -------------------- Bloco Esquerdo: Prêmios -------------------- */
+.prize-ladder-container {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize-ladder {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.prize-item {
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s, color 0.3s;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prize-item-value {
+    color: var(--color-secondary);
+}
+
+.prize-item.current {
+    background-color: var(--color-secondary);
+    color: var(--color-text-dark);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--color-secondary);
+}
+
+.prize-item.guaranteed {
+    background-color: var(--color-success);
+    color: var(--color-text-light);
+    font-size: 1.1em;
+}
+
+.current-status {
+    width: 100%;
+    padding: 10px;
+    border-top: 2px dashed var(--color-secondary);
+    text-align: center;
+}
+
+#current-prize, #guaranteed-prize {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+}
+
+/* -------------------- Bloco Central: Pergunta -------------------- */
+.question-area {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-box-bg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-tertiary);
+    background-color: var(--color-text-light);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-number {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-text-light);
+    padding: 5px 10px;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
+
+.question-box {
+    background-color: var(--color-primary);
+    border: 3px solid var(--color-secondary);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Alternativas */
+.alternatives-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.alternative {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border: 2px solid var(--color-secondary);
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.alternative:hover:not(:disabled) {
+    background-color: #0056a8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.alternative:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: var(--color-box-bg);
+    border: 2px dashed #555;
+    color: #aaa;
+    pointer-events: none;
+}
+
+.alternative.correct {
+    background-color: var(--color-success) !important;
+    border-color: #fff !important;
+    color: var(--color-text-light) !important;
+    animation: correct-answer 1s forwards;
+}
+
+.alternative.wrong {
+    background-color: var(--color-tertiary) !important;
+    border-color: #fff !important;
+    color: var(--color-text-light) !important;
+    animation: wrong-answer 1s forwards;
+}
+
+@keyframes correct-answer {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); box-shadow: 0 0 20px var(--color-success); }
+    100% { transform: scale(1); }
+}
+
+@keyframes wrong-answer {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); box-shadow: 0 0 20px var(--color-tertiary); }
+    100% { transform: scale(1); }
+}
+
+/* -------------------- Ajudas -------------------- */
+.help-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.help-btn {
+    background-color: var(--color-secondary);
+    color: var(--color-text-dark);
+    border: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, opacity 0.2s;
+}
+
+.help-btn:hover:not(:disabled) {
+    background-color: #ffd740;
+}
+
+.help-btn:disabled {
+    background-color: #555;
+    color: #bbb;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.help-message {
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #eee;
+}
+
+/* Fix 3: Área de Resumo dos Prêmios (Erroneous, Stop, Correct) */
+.prize-summary-area {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 15px 0;
+    margin-top: 15px;
+    border-top: 1px dashed var(--color-primary);
+    border-bottom: 1px dashed var(--color-primary);
+    text-align: center;
+}
+
+.prize-info p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.prize-info span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.prize-info.error span {
+    color: var(--color-tertiary);
+}
+
+.prize-info.stop span {
+    color: var(--color-success);
+}
+
+.prize-info.correct span {
+    color: var(--color-secondary);
+}
+
+/* -------------------- Controles de Ação -------------------- */
+.action-controls {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-top: 1px dashed var(--color-primary);
+}
+
+.action-btn {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.action-btn:hover:not(:disabled) {
+    transform: scale(1.05);
+}
+
+.start-btn {
+    background-color: var(--color-success);
+    color: var(--color-text-light);
+}
+
+.stop-btn {
+    background-color: var(--color-tertiary);
+    color: var(--color-text-light);
+}
+
+.continue-btn {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border: 2px solid var(--color-text-light);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Estilos para o Modal de Cartas */
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  background: #222;
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.4s;
+  user-select: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.flipped {
+  background: var(--color-secondary);
+  color: var(--color-text-dark);
+  font-weight: bold;
+}
+
+/* -------------------- Modal de Fim de Jogo/Ajudas -------------------- */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: var(--color-primary);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 50px var(--color-secondary);
+}
+
+.modal-content h2 {
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.modal-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Conteúdo do modal de Placas/Universitários */
+#help-info-content {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .game-container {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .prize-ladder-container {
+        width: 100%;
+        padding: 15px;
+    }
+    .question-area {
+        padding: 15px;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .timer {
+        margin-bottom: 10px;
+    }
+    .title-h1 {
+        font-size: 2rem;
+    }
+    .alternatives-grid {
+        grid-template-columns: 1fr;
+    }
+    .help-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .action-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
