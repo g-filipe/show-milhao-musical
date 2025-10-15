@@ -2,30 +2,32 @@
   display: flex;
   max-width: 1400px;
   width: 100%;
+  max-height: calc(100vh - 40px);
   background-color: #002e63;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
 }
 
 .prize-ladder-container {
   width: 300px;
-  padding: 20px;
+  padding: 15px 20px;
   background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0;
+  flex-basis: 300px;
 }
 
 .prize-ladder {
   list-style: none;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .prize-item {
-  padding: 8px 10px;
-  margin-bottom: 5px;
+  padding: 6px 10px;
+  margin-bottom: 3px;
   border-radius: 5px;
   transition: background-color 0.3s, transform 0.2s, color 0.3s;
   font-weight: bold;
@@ -36,6 +38,7 @@
 
 .prize-item-value {
   color: var(--color-secondary);
+  font-size: 0.95rem;
 }
 
 .prize-item.current {
@@ -53,7 +56,7 @@
 
 .current-status {
   width: 100%;
-  padding: 10px;
+  padding: 9px;
   border-top: 2px dashed var(--color-secondary);
   text-align: center;
 }
@@ -61,7 +64,7 @@
 #current-prize,
 #guaranteed-prize {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 15px;

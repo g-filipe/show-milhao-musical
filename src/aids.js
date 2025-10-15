@@ -7,6 +7,7 @@ import {
 } from "./ui.js";
 
 let gameCallbacks = {};
+
 export const setGameCallbacks = (callbacks) => {
   gameCallbacks = callbacks;
 };
@@ -26,6 +27,8 @@ export const activateHelp = (type) => {
   updateHelpButtons();
 
   if (type === "pulo") {
+    const puloGifModal = document.getElementById("pulo-gif-modal");
+    puloGifModal.classList.remove("hidden");
     const newQ =
       q.allQuestions[Math.floor(Math.random() * q.allQuestions.length)];
     getQuestionData()[gameState.currentQuestionIndex].question = newQ.question;
@@ -33,11 +36,12 @@ export const activateHelp = (type) => {
     getQuestionData()[gameState.currentQuestionIndex].answer = newQ.answer;
 
     setTimeout(() => {
+      puloGifModal.classList.add("hidden");
       gameCallbacks.loadNextQuestionSameLevel();
       enableAlternativeButtons(true);
       updateHelpButtons();
       document.getElementById("help-blocked-text").textContent = "";
-    }, 1000);
+    }, 1900);
     return;
   }
 
