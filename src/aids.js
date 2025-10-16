@@ -78,6 +78,13 @@ function removeWrongAlternatives(allAlternativeButtons, correctAnswer, count) {
   });
 }
 
+const getCardText = (value) => {
+  const val = parseInt(value);
+  if (val === 0) return "Nada";
+  if (val === 1) return "Remove 1";
+  return `Remove ${val}`;
+};
+
 function showCardsHelp(correctAnswer) {
   const modal = document.getElementById("cards-modal");
   modal.classList.remove("hidden");
@@ -108,14 +115,13 @@ function showCardsHelp(correctAnswer) {
         c.style.pointerEvents = "none";
         if (!c.classList.contains("flipped")) {
           const v = c.dataset.value;
-          c.textContent =
-            v === "1" ? `Remove 1` : v > "1" ? `Remove ${v}` : `Nada`;
+          c.textContent = getCardText(v);
+          c.classList.add("flipped");
         }
       });
 
       card.classList.add("flipped");
-      card.textContent =
-        val === 1 ? `Remove 1` : val > 1 ? `Remove ${val}` : `Nada`;
+      card.textContent = getCardText(val);
 
       if (val > 0) {
         removeWrongAlternatives(alternatives, correctAnswer, val);
@@ -127,7 +133,7 @@ function showCardsHelp(correctAnswer) {
         updateHelpButtons();
         document.getElementById("help-blocked-text").textContent = "";
         gameCallbacks.resumeTimer();
-      }, 3000);
+      }, 13000);
     };
     container.appendChild(card);
   });

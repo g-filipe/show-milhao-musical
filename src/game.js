@@ -130,7 +130,7 @@ export const handleAnswer = (e) => {
       showModal("🎉 Parabéns!", `Você ganhou ${formatCurrency(1000000)}!`);
       return endGame(true);
     }
-    setTimeout(() => showNextStepDecision("Acertou!"), 1500);
+    setTimeout(() => showNextStepDecision("Certa resposta!"), 1500);
   } else {
     btn.classList.add("wrong");
     const correctBtn = Array.from(

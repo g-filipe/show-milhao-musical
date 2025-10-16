@@ -51,7 +51,7 @@
 .prize-item.guaranteed {
   background-color: var(--color-success);
   color: var(--color-text-light);
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
 }
 
 .current-status {
@@ -168,3 +168,275 @@
     gap: 10px;
   }
 }
+
+/* ========================================================= */
+/* AJUSTES PARA TELAS COM POUCA ALTURA (Ex: 1366x768) */
+/* ========================================================= */
+@media (max-height: 800px) {
+    
+    /* Reduz o padding geral do container do jogo */
+    .game-container {
+        max-height: calc(100vh - 40px);
+        margin: 10px 0;
+    }
+
+    /* Reduz o padding da área de perguntas */
+    .question-area {
+        padding: 15px;
+    }
+
+    /* Reduz o espaçamento de todos os elementos internos */
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .timer {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    /* Reduz margem da caixa da pergunta */
+    .question-box {
+        margin-bottom: 10px;
+        padding: 15px;
+        min-height: 80px;
+    }
+
+    .question-text {
+        font-size: 1.2rem;
+    }
+
+    /* Reduz o espaçamento do grid de alternativas */
+    .alternatives-grid {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* Reduz padding das alternativas */
+    .alternative {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    
+    /* Reduz margens na área de ajudas e resumo */
+    .help-controls .title-h3 {
+        margin-top: 10px;
+    }
+
+    .prize-summary-area {
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    /* Reduz tamanho dos botões de Ação */
+    .action-controls {
+        padding-top: 10px;
+    }
+    
+    .action-btn {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+    
+    /* Centraliza a lista de prêmios e permite rolagem APENAS SE NECESSÁRIO */
+    .prize-ladder-container {
+        /* Define a altura máxima para permitir a rolagem SÓ SE a lista for grande demais */
+        max-height: 100%;
+    }
+    
+    .prize-ladder {
+        /* Permite que a lista de prêmios role se a altura não for suficiente */
+        overflow-y: auto; 
+        flex-grow: 1; /* Ocupa o espaço entre o título e o status */
+    }
+
+    /* Reduz espaçamento na lista de prêmios */
+    .prize-ladder {
+        margin-bottom: 5px;
+    }
+    .prize-item {
+        padding: 4px 8px;
+        font-size: 0.9em;
+    }
+}
+
+/* ========================================================= */
+/* AJUSTE FINO PARA RESOLUÇÃO 1366x768 - VISUALIZAÇÃO PLENA */
+/* ========================================================= */
+@media (max-width: 1400px) and (max-height: 800px) {
+  html, body {
+    height: 100%;
+    overflow: hidden; /* impede rolagem */
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .game-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+    max-width: 1366px;
+    max-height: 768px;
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  /* ======= LATERAL (PLACAR DE PRÊMIOS) ======= */
+  .prize-ladder-container {
+    width: 260px;
+    flex-basis: 260px;
+    padding: 10px 12px;
+    overflow: hidden;
+  }
+
+  .title-h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .prize-ladder {
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  .prize-item {
+    padding: 3px 5px;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+  }
+
+  .current-status {
+    padding: 6px 0;
+    font-size: 0.85rem;
+  }
+
+  #current-prize,
+  #guaranteed-prize {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+  }
+
+  /* ======= ÁREA CENTRAL (PERGUNTAS E BOTÕES) ======= */
+  .question-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 20px;
+    overflow: hidden;
+  }
+
+  .header {
+    margin-bottom: 8px;
+  }
+
+  .timer {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+  .title-h1 {
+    font-size: 1.7rem;
+  }
+
+  .question-number {
+    font-size: 1rem;
+    padding: 4px 6px;
+  }
+
+  .question-box {
+    padding: 10px;
+    min-height: 60px;
+    margin-bottom: 8px;
+  }
+
+  .question-text {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  .alternatives-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .alternative {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+  }
+
+  /* ======= AJUDAS ======= */
+  .help-controls {
+    margin-top: 5px;
+  }
+
+  .title-h3 {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  .help-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .help-btn {
+    font-size: 0.9rem;
+    padding: 5px 8px;
+  }
+
+  /* ======= RESUMO DE PRÊMIOS E BOTÕES ======= */
+  .prize-summary-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  .prize-info p {
+    font-size: 0.85rem;
+  }
+
+  .prize-info span {
+    font-size: 0.9rem;
+  }
+
+  .action-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .action-btn {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+
+  /* ======= MODAIS ======= */
+  .modal-content {
+    max-width: 450px;
+    padding: 15px;
+  }
+
+  .modal-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .modal-content p {
+    font-size: 0.95rem;
+  }
+}
+
