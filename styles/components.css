@@ -1,3 +1,7 @@
+/* ================================
+   COMPONENTES PRINCIPAIS
+   ================================ */
+
 .alternative {
   background-color: var(--color-primary);
   color: var(--color-text-light);
@@ -42,37 +46,32 @@
   animation: wrong-answer 1s forwards;
 }
 
+/* ================================
+   ANIMAÇÕES DE RESPOSTAS
+   ================================ */
+
 @keyframes correct-answer {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px var(--color-success);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); box-shadow: 0 0 20px var(--color-success); }
+  100% { transform: scale(1); }
 }
 
 @keyframes wrong-answer {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px var(--color-tertiary);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); box-shadow: 0 0 20px var(--color-tertiary); }
+  100% { transform: scale(1); }
 }
+
+/* ================================
+   BOTÕES DE AJUDA
+   ================================ */
 
 .help-buttons {
   display: flex;
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .help-btn {
@@ -96,6 +95,10 @@
   cursor: not-allowed;
   opacity: 0.7;
 }
+
+/* ================================
+   ÁREA DE PRÊMIOS / AÇÕES
+   ================================ */
 
 .help-message {
   padding: 10px;
